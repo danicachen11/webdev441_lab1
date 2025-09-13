@@ -5,6 +5,15 @@ body {
     max-width: 900px;
 }
 
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8 px;
+}
+
 #name {
     font-weight: bold;
     text-align: center;
@@ -17,4 +26,11 @@ body {
 .contact:hover {
     color: #cc0000;
     text-decoration: underline;
+}
+
+footer {
+    text-align:left ;
+    font-size: 0.9em;
+    color: gray;
+    margin-top: 40px;
 }
