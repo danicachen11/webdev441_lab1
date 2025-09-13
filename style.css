@@ -14,6 +14,10 @@ body {
   }
 }
 
+section {
+    margin-bottom: 50px;
+}
+
 ul {
     padding-left: 20px;
     margin-top: 10px;
@@ -31,17 +35,22 @@ header img {
   border-radius: 5px;
 }
 
+header{
+    text-align: center
+}
+
 #name {
     font-weight: bold;
     text-align: center;
-    font-size: 28px;
+    font-size: 45px;
 }
 
 .contact {
     color: blue
 }
 .contact:hover {
-    color: #cc0000;
+    color:red;
+    background-color: beige;
     text-decoration: underline;
 }
 
